@@ -25,12 +25,12 @@ import java.util.regex.Pattern;
 public class Main {
     private static final String URL_TAG = "https://yande.re/tag.json?order=count&limit=0";
     private static final String[] URL_TRANSLATION = {
-            "https://raw.githubusercontent.com/BooruTagTranslation/Database/master/ambiguous.md",
             "https://raw.githubusercontent.com/BooruTagTranslation/Database/master/artist.md",
             "https://raw.githubusercontent.com/BooruTagTranslation/Database/master/character.md",
             "https://raw.githubusercontent.com/BooruTagTranslation/Database/master/circle.md",
             "https://raw.githubusercontent.com/BooruTagTranslation/Database/master/copyright.md",
             "https://raw.githubusercontent.com/BooruTagTranslation/Database/master/faults.md",
+            "https://raw.githubusercontent.com/BooruTagTranslation/Database/master/general.md",
     };
 
     private static Map<String, String> map_tag = new HashMap<>();
