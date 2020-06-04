@@ -61,7 +61,7 @@ public class Main {
             for (String string : array_translation) {
                 String[] cutline = string.split("\\|");
                 if (cutline.length == 2) {
-                    map_translation.put(cutline[0], cutline[1]);
+                    map_translation.put(cutline[0], cutline[1] + "[" + cutline[0] + "]");
                 }
             }
         }
