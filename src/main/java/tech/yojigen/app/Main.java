@@ -60,7 +60,7 @@ public class Main {
             String[] array_translation = translation.split("\n");
             for (String string : array_translation) {
                 String[] cutline = string.split("\\|");
-                if (cutline[0] != null && cutline[1] != null) {
+                if (cutline.length == 2) {
                     map_translation.put(cutline[0], cutline[1]);
                 }
             }
